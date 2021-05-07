@@ -5,9 +5,13 @@
 
 }
 
+
+
+
 body {
-    margin: 0;
+    margin: 0px;
     font-family: 'Reggae One', cursive;
+
 }
 
 header {
@@ -66,19 +70,23 @@ header div {
     width: 100%;
     max-width: 600px;
     height: 10vh;
+    overflow: scroll;
 
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
+
     width: 100%;
     background-color: var(--primary);
     text-align: center;
     box-sizing: border-box;
     display: block;
     font-size: 1rem;
-    padding: 1rem;
+    padding: 2rem;
+    position: fixed;
+    bottom: 0;
+
+
 
 }
 
