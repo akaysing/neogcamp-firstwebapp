@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
 :root {
-    --primary: aqua;
+    --primary: #BEF264;
+
 }
 
 body {
@@ -22,12 +23,13 @@ header div {
 
 .container {
     box-sizing: border-box;
-    display: block;
+
     text-align: center;
     max-width: 600px;
     font-size: large;
     padding: 1rem;
     margin: auto;
+    margin-bottom: 2rem;
     background-color: white;
 
 }
@@ -38,7 +40,7 @@ header div {
     max-width: 600px;
     height: 20vh;
     display: block;
-    padding: 1rem;
+    font-family: inherit;
     margin: auto;
     margin-top: 2rem;
 
@@ -47,9 +49,9 @@ header div {
 #btn-primary {
     box-sizing: border-box;
     display: block;
-    padding: 1.5rem;
+    padding: 1rem 2rem;
     border: none;
-    background-color: yellow;
+    background-color: var(--primary);
     font-family: inherit;
     font-size: 1rem;
     margin: 1rem 0rem;
@@ -63,8 +65,24 @@ header div {
     margin: auto;
     width: 100%;
     max-width: 600px;
-    height: 20vh;
+    height: 10vh;
 
 }
 
-#
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary);
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+}
