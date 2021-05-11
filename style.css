@@ -1,96 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Reggae+One&display=swap");
 
 :root {
-    --primary: #BEF264;
-
+  --primary: #bef264;
 }
 
-
-
-
 body {
-    margin: 0px;
-    font-family: 'Reggae One', cursive;
-
+  margin: 0px;
+  font-family: "Reggae One", cursive;
 }
 
 header {
-    text-align: center;
-    background-color: var(--primary);
+  text-align: center;
+  background-color: var(--primary);
+  padding: 1rem;
 }
 
 header div {
-    padding: 1rem;
-    font-size: 2rem;
-
+  padding: 1rem;
+  font-size: 2rem;
 }
 
 .container {
-    box-sizing: border-box;
+  box-sizing: border-box;
 
-    text-align: center;
-    max-width: 600px;
-    font-size: large;
-    padding: 1rem;
-    margin: auto;
-    margin-bottom: 2rem;
-    background-color: white;
+  text-align: center;
+  max-width: 600px;
+  font-size: large;
+  padding: 1rem;
+  margin: auto;
 
+  background-color: white;
 }
 
 #txt-area {
-    box-sizing: border-box;
-    width: 100%;
-    max-width: 600px;
-    height: 20vh;
-    display: block;
-    font-family: inherit;
-    margin: auto;
-    margin-top: 2rem;
-
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 600px;
+  height: 20vh;
+  display: block;
+  font-family: inherit;
+  margin: auto;
+  margin-top: 2rem;
 }
 
 #btn-primary {
-    box-sizing: border-box;
-    display: block;
-    padding: 1rem 2rem;
-    border: none;
-    background-color: var(--primary);
-    font-family: inherit;
-    font-size: 1rem;
-    margin: 1rem 0rem;
+  box-sizing: border-box;
+  display: block;
+  padding: 1rem 2rem;
+  border: none;
+  background-color: var(--primary);
+  font-family: inherit;
+  font-size: 1rem;
+  margin: 1rem 0rem;
 }
 
 #txt-output {
-    box-sizing: border-box;
-    background-color: white;
-    border: 1px solid black;
-    padding: 1rem;
-    margin: auto;
-    width: 100%;
-    max-width: 600px;
-    height: 10vh;
-    overflow: scroll;
-
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid black;
+  padding: 1rem;
+  margin: auto;
+  width: 100%;
+  max-width: 600px;
+  height: 10vh;
+  overflow: scroll;
 }
 
 footer {
-
-    width: 100%;
-    background-color: var(--primary);
-    text-align: center;
-    box-sizing: border-box;
-    display: block;
-    font-size: 1rem;
-    padding: 2rem;
-    position: fixed;
-    bottom: 0;
-
-
-
+  width: 100%;
+  background-color: var(--primary);
+  text-align: center;
+  box-sizing: border-box;
+  display: block;
+  font-size: 0.9rem;
+  padding: 2px;
+  position: fixed;
+  bottom: 0px;
 }
 
 footer p {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
+  line-height: 2;
 }
