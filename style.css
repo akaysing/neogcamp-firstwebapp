@@ -13,10 +13,10 @@ header {
   text-align: center;
   background-color: var(--primary);
   padding: 1rem;
+  margin: 0%;
 }
 
 header div {
-  padding: 1rem;
   font-size: 2rem;
 }
 
@@ -32,6 +32,12 @@ header div {
   background-color: white;
 }
 
+.yoda {
+  margin: auto;
+  display: block;
+  height: 200px;
+}
+
 #txt-area {
   box-sizing: border-box;
   width: 100%;
@@ -41,6 +47,7 @@ header div {
   font-family: inherit;
   margin: auto;
   margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #btn-primary {
@@ -51,15 +58,16 @@ header div {
   background-color: var(--primary);
   font-family: inherit;
   font-size: 1rem;
-  margin: 1rem 0rem;
 }
 
 #txt-output {
   box-sizing: border-box;
   background-color: white;
   border: 1px solid black;
-  padding: 1rem;
+  padding: 1.5rem;
   margin: auto;
+  margin-top: 2rem;
+
   width: 100%;
   max-width: 600px;
   height: 10vh;
@@ -74,7 +82,7 @@ footer {
   display: block;
   font-size: 0.9rem;
   padding: 2px;
-  position: fixed;
+  position: sticky;
   bottom: 0px;
 }
 
